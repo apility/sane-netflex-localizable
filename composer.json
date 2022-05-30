@@ -1,0 +1,25 @@
+{
+  "name": "apility/sane-netflex-localizable",
+  "description": "A sane implementation of the Netflex Structure trait Localizable",
+  "type": "library",
+  "require": {
+    "illuminate/support": "^8.0",
+    "netflex/query-builder": "^4.0",
+    "netflex/structures": "^4.0",
+    "netflex/support": "^4.0"
+  },
+  "license": "MIT",
+  "config":{
+    "platform": {
+      "php": "7.4"
+    },
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Apility\\Sane\\Traits\\": "src/"
+    }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev"
+}
